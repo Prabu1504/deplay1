@@ -12,6 +12,12 @@ const patient= new mongoose.Schema({
     },
     Phone_No:{
         type:Number
+    },
+    Date:{
+        type:String
+    },
+    Time:{
+        type:String
     }
 });
 const PatientDB= mongoose.model("patient",patient);
